@@ -18,6 +18,5 @@ from . import views
 
 urlpatterns = [
     path('',views.index, name='HomePage'),
-    path('shop/',include('shop.urls')),
-    path('blog/',include('blog.urls'))
+    path('shop/',include('shop.urls'))
 ]
